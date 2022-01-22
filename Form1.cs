@@ -16,5 +16,11 @@ namespace WindowsFormsApp11
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Form Form2 = new Form();
+            Form2.Show(this);
+        }
     }
 }
